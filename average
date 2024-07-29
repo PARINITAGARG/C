@@ -1,0 +1,14 @@
+#include<stdio.h>
+scanf("%d",&n);
+int arr[n];
+int count=0;
+int avg=0;
+for(i=0;i<n;i++){
+    scanf("%d",&a);
+    arr[i]=a;
+}
+for(i=0;i<n;i++){
+    count+=arr[i];
+}
+avg=count/n;
+printf("%d",avg);
